@@ -9,13 +9,9 @@ Bienvenido a TechTutor, tu plataforma educativa en línea para explorar las últ
 TechTutor es un mi proyecto personal para practicar HTML, CSS Y JAVASCRIPT.
 
 
-## Capturas de Pantalla
-
-_Inserta capturas de pantalla del sitio web aquí._
-
 ## Contribuir
 
-Si deseas contribuir a mi proyeto, estarua encantado de recibir tu ayuda! Puedes seguir estos pasos:
+Si deseas contribuir a mi proyeto, estaria encantado de recibir tu ayuda! Puedes seguir estos pasos:
 
 1. Clona este repositorio: `https://github.com/fernandez123314/TechTutor.git`
 2. Crea una rama para tu contribución: `git checkout -b tu-nueva-funcionalidad`
