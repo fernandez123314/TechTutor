@@ -12,38 +12,6 @@ body {
   
 }
 
-header {
-    padding: 20px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-120%);
-    z-index: 1;
-    font-size: 25px;
-    line-height: 1.5;
-    font-family: "techno_hideo";
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 0 20px;
-}
-
-nav ul li a {
-    color: rgb(7, 7, 7);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
-    text-decoration: underline;
-}
 
 .welcome {
     position: absolute;
@@ -64,14 +32,16 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
-.welcome a {
-    display: inline-block;
+.boton {
+    display: inline;
     background-color: #2091F9;
-    color: white;
+    color: rgb(253, 253, 253);
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 5px;
     font-weight: bold;
+    margin-left: 50px;
+    margin-right: 100;
 }
 
 
@@ -102,13 +72,3 @@ nav ul li a {
     z-index: 1; /* Agrega esta propiedad para asegurarte de que el contenido esté por encima del video */
 }
 
-
-
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 14px;
-}
