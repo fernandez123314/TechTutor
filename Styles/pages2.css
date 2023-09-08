@@ -1,92 +1,103 @@
-@font-face {
+ @font-face {
     font-family: "techno_hideo";
     src: url(../fonts/techno_hideo.ttf);
-}
+} 
 
-/* Estilo para el cuerpo de la página */
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Para ocultar las barras de desplazamiento */
+    font-family: Arial, sans-serif;
+    position: relative; 
 }
 
-/* Estilo para la sección de video */
+
 .video-section {
-    position: relative; /* Establece la posición relativa para que los elementos hijos puedan tener posición absoluta */
-    width: 100%;
-    height: 100vh; /* Altura del 100% de la ventana visible */
-    overflow: hidden; /* Oculta el desbordamiento del video */
+    position: relative;
+    height: 100vh; 
+    overflow: hidden;
 }
 
-/* Estilo para el video de fondo */
 .video-section video {
-    position: absolute; /* Establece la posición absoluta para superponer el video */
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ajusta el video para cubrir todo el contenedor */
-    z-index: -1; /* Coloca el video detrás de los demás elementos */
+    object-fit: cover; 
+    z-index: -1; 
 }
 
-/* Estilo para la sección de bienvenida */
-.welcome {
-    position: absolute; /* Establece la posición absoluta para superponer el contenido */
-    top: 50%; /* Alinea verticalmente en el centro */
-    left: 50%; /* Alinea horizontalmente en el centro */
-    transform: translate(-50%, -50%); /* Centra la sección horizontal y verticalmente */
-    text-align: center;
-    color: white; /* Color del texto sobre el video */
-}
 
-/* Estilo para el enlace "Comenzar" */
-.welcome a {
-    display: inline-block;
-    background-color: #2091F9;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-top: 20px; /* Espacio entre el párrafo y el enlace */
-}
-
-/* Estilo para el encabezado de la página */
 header {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad del encabezado */
-    padding: 10px 0;
-    text-align: center;
+    padding: 12px;
+    z-index: 1; 
+    text-align: center; 
+
 }
 
-/* Estilo para la navegación en el encabezado */
 nav ul {
     list-style: none;
+    margin: 0;
     padding: 0;
+    font-family:"techno_hideo" ;
 }
 
 nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin-left: 20px;
 }
 
-nav ul li a {
-    color: white;
+nav a {
     text-decoration: none;
+    color: #fff;
     font-weight: bold;
 }
 
-/* Estilo para el pie de página */
+
+
+.tendencias {
+    background: none; 
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+
+.tendencias article {
+    margin-bottom: 20px;
+}
+
+.tendencias h3 {
+    font-size: 18px;
+}
+
+.tendencias p {
+    font-size: 16px;
+}
+
+.tendencias a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+
 footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad del pie de página */
-    padding: 10px 0;
     text-align: center;
-    color: white;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
 }
